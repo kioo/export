@@ -60,7 +60,7 @@ public class PoiServiceImpl implements PoiService {
                 mapValue.put("cityCode",pcd.getCityCode());
                 mapValue.put("zipCode",pcd.getZipCode());
                //mapValue.put("submitTime", DateTimeUtil.dateToStr(projectAuditListVo.getSubmitTime(),"yyyy-MM-dd"));
-               // String attachmentURL = projectAuditListVo.getAttachment()==null?"无": FileUtil.getUploadPath()+projectAuditListVo.getAttachment();
+               //String attachmentURL = projectAuditListVo.getAttachment()==null?"无": FileUtil.getUploadPath()+projectAuditListVo.getAttachment();
 
                 listmap.add(mapValue);
             }
